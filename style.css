@@ -1,0 +1,44 @@
+body
+{
+    background-image: url("assets/images/bg01.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.vertical-center {
+  margin:3%;
+  position: absolute;
+  top: 40%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  
+}
+
+#color-overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: black;
+   opacity: 0.8;
+}
+
+#left {
+  display: grid;
+  grid-template-columns: 0.8fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+}
+
+.icon-strip
+{
+    position: absolute;
+    bottom: 6%;
+    left: 3%;
+    
+}
+
+
+
